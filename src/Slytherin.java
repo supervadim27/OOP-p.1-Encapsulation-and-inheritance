@@ -42,14 +42,8 @@ public class Slytherin extends Hogwarts {
     public void setThirstForPower(int thirstForPower) {
         this.thirstForPower = thirstForPower;
     }
+    @Override
     public String toString() {
-        return getName() + getSurname()+ ": magicPower=" + getMagicPower() +
-                "teleportation="+getTeleportation()+
-                " trickinherent=" + trickinherent +
-                " determination=" + determination +
-                " ambition=" + ambition +
-                " resourcefulness=" + resourcefulness +
-                " thirst for power=" + thirstForPower
-                ;
+        return super.toString()+" trickinherent=" + trickinherent +" determination=" + determination +" ambition=" + ambition +" resourcefulness=" + resourcefulness +" thirst for power=" + thirstForPower;
     }
 }

@@ -35,4 +35,10 @@ public class Hogwarts {
     public void setTeleportation(int teleportation) {
         this.teleportation = teleportation;
     }
+
+    public String toString() {
+        return getName()+" "+getSurname()+": magicPower="+getMagicPower()+" teleportation="+getTeleportation();
+
+    }
+
 }

@@ -26,12 +26,8 @@ public class Puffinduy extends Hogwarts {
     public void setHonest(int honest) {
         this.honest = honest;
     }
+    @Override
     public String toString() {
-        return getName()+getSurname()+": magicPower="+getMagicPower()+
-                "teleportation="+getTeleportation()+
-                " hardworking="+hardworking+
-                " loyal="+loyal+
-                " honest="+honest
-                ;
+        return super.toString()+" hardworking="+hardworking+" loyal="+loyal+" honest="+honest;
     }
 }
